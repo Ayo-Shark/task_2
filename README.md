@@ -7,13 +7,39 @@ Console.WriteLine("Ваше имя?");
 string name = Convert.ToString(value: Console.ReadLine());
 Console.WriteLine("-------------------------------------------------------------------------");
 Console.WriteLine("Ваша фамилия?");
-string last_name = Convert.ToString(value: Console.ReadLine());
 Console.WriteLine("-------------------------------------------------------------------------");
+string last_name = Convert.ToString(value: Console.ReadLine());
 Console.WriteLine("В какой день Вы родились?");
 int data_birth = Convert.ToInt32(Console.ReadLine());
+while (true)
+{
+    if (data_birth <= 31)
+    {
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Incorect.Try again");
+        data_birth = Convert.ToInt32(Console.ReadLine());
+    }
+
+}
+Console.WriteLine("-------------------------------------------------------------------------");
 Console.WriteLine("В какой месяц Вы родились?");
 int weekend_birth = Convert.ToInt32(Console.ReadLine());
+while (true)
+{
+    if (weekend_birth <= 12)
+    {
+        break;
+    }
+    else
+    {
+        Console.WriteLine("Incorect.Try again");
+        weekend_birth = Convert.ToInt32(Console.ReadLine());
+    }
 
+}
 switch (weekend_birth)
 {
     case 1:
@@ -163,7 +189,7 @@ switch (weekend_birth)
         break;
 
     default:
-        Console.WriteLine("Некоректные");
+        Console.WriteLine("Некоректные данные");
             break;
 }
 Console.WriteLine($"Ваше имя: {name}, Ваш фамилия: {last_name}, Ваш знак зодиака: {znak_zod}"); ```
