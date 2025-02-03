@@ -60,7 +60,7 @@ switch (weekend_birth)
             znak_zod = "Водолей";
         }
 
-        if (data_birth >= 19 && data_birth >= 29)
+        if (data_birth >= 19 && data_birth <= 29)
         {
             znak_zod = "Рыбы";
         }
@@ -90,99 +90,99 @@ switch (weekend_birth)
         }
         break;
     case 5:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 20)
         {
             znak_zod = "Телец";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 31)
+        if (data_birth >= 21 && data_birth <= 31)
         {
             znak_zod = "Близнецы";
         }
         break;
 
     case 6:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 20)
         {
             znak_zod = "Близнецы";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 30)
+        if (data_birth >= 21 && data_birth <= 30)
         {
             znak_zod = "Рак";
         }
         break;
 
     case 7:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 22)
         {
             znak_zod = "Рак";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 31)
+        if (data_birth >= 23 && data_birth <= 31)
         {
             znak_zod = "Лев";
         }
         break;
     case 8:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 22)
         {
             znak_zod = "Лев";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 30)
+        if (data_birth >= 23 && data_birth <= 31)
         {
             znak_zod = "Дева";
         }
         break;
     case 9:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 22)
         {
             znak_zod = "Дева";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 31)
+        if (data_birth >= 23 && data_birth <= 30)
         {
             znak_zod = "Весы";
         }
         break;
     case 10:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 22)
         {
             znak_zod = "Весы";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 30)
+        if (data_birth >= 23 && data_birth <= 31)
         {
             znak_zod = "Скорпион";
         }
         break;
     case 11:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 21)
         {
             znak_zod = "Скорпион";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 31)
+        if (data_birth >= 22 && data_birth <= 30)
         {
             znak_zod = "Стрелец";
         }
         break;
     case 12:
-        if (data_birth >= 1 && data_birth <= 19)
+        if (data_birth >= 1 && data_birth <= 21)
         {
             znak_zod = "Стрелец";
         }
 
 
-        if (data_birth >= 20 && data_birth <= 31)
+        if (data_birth >= 22 && data_birth <= 31)
         {
             znak_zod = "Козерог";
         }
